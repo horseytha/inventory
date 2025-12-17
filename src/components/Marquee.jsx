@@ -33,7 +33,7 @@ const Marquee = () => {
             <div key={i} className="flex-shrink-0 group">
               <img
                 src={src}
-                className="rounded-2xl object-cover shadow-lg group-hover:shadow-2xl transition-all duration-300 group-hover:scale-105"
+                className="rounded-2xl object-cover shadow-lg group-hover:shadow-2xl transition-all duration-300 group-hover:scale-105 border-2 border-rose-800"
                 style={{ width: `${dim.width}px`, height: `${dim.height}px` }}
               />
             </div>
