@@ -12,16 +12,33 @@ const Marquee = () => {
     "https://daromas.in/cdn/shop/files/UTJpGjw5lCWpT6hZIML9SXRb1ALMXTRFAX5mXnC5_f572e932-81b5-4aa7-b867-275a8d3ce451.webp?v=1720599696",
   ];
 
+  const dimensions = [
+    { width: 180, height: 140 },
+    { width: 150, height: 200 },
+    { width: 180, height: 160 },
+    { width: 170, height: 170 },
+    { width: 200, height: 180 },
+    { width: 160, height: 200 },
+    { width: 260, height: 150 },
+    { width: 140, height: 200 },
+    { width: 210, height: 160 },
+  ];
+
   return (
-    <div className="overflow-hidden w-full py-8">
-      <div className="flex animate-marquee gap-10">
-        {images.concat(images).map((src, i) => (
-          <img
-            key={i}
-            src={src}
-            className="w-[200px] h-[200px] rounded-xl object-cover border-6 border-rose-900"
-          />
-        ))}
+    <div className="overflow-hidden w-full py-12 bg-white">
+      <div className="flex animate-marquee gap-6 items-end">
+        {images.concat(images).map((src, i) => {
+          const dim = dimensions[i % dimensions.length];
+          return (
+            <div key={i} className="flex-shrink-0 group">
+              <img
+                src={src}
+                className="rounded-2xl object-cover shadow-lg group-hover:shadow-2xl transition-all duration-300 group-hover:scale-105"
+                style={{ width: `${dim.width}px`, height: `${dim.height}px` }}
+              />
+            </div>
+          );
+        })}
       </div>
     </div>
   );
