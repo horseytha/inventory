@@ -102,8 +102,8 @@ const Landing = () => {
                 <button className="bg-gradient-to-r from-rose-600 to-rose-700 hover:from-rose-700 hover:to-rose-800 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all transform hover:scale-105 active:scale-95 shadow-lg hover:shadow-xl">Shop Now</button>
                 <button className="border-2 border-rose-900 text-rose-950 hover:bg-rose-900 hover:text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all">View Collection</button>
               </div>
-              <img src={plant} alt="plant" className="absolute right-0 top-70 w-[200px] h-auto" />
-              <img src={buhBuh} alt="buh buh" className="absolute left-0 top-70 w-[180px] h-auto" />
+              <img src={plant} alt="plant" className="absolute -right-15 top-50 w-[250px] h-auto" />
+              <img src={buhBuh} alt="buh buh" className="absolute -left-10 top-15 w-[350px] h-auto" />
             </div>
           </div>
         </div>
