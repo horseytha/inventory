@@ -19,31 +19,37 @@ const Landing = () => {
       id: 1,
       name: "Premium Merino Wool",
       price: "₹349/100g",
-      image: "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500"
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXDc0wHuaAxcXF3t1UiluReBQFk1lmeKvTwg&s"
     },
     {
       id: 2,
       name: "Cotton Yarn Bundle",
       price: "₹599/pack",
-      image: "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=500"
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ2p0YbyzOktYd8zrmcj6HIDqBn0nk9rr6ag&s"
     },
     {
       id: 3,
       name: "Quilting Fabric Set",
       price: "₹899/meter",
-      image: "https://images.unsplash.com/photo-1604871000636-074fa5117945?w=500"
+      image: "https://m.media-amazon.com/images/I/71XqOxIuSOL.jpg"
     },
     {
       id: 4,
       name: "Embroidery Thread Kit",
       price: "₹449/set",
-      image: "https://images.unsplash.com/photo-1452860606245-08befc0ff44b?w=500"
+      image: "https://m.media-amazon.com/images/I/71+broAaJ5L._AC_UF1000,1000_QL80_.jpg"
     },
     {
       id: 5,
       name: "Macramé Cord",
       price: "₹299/roll",
       image: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=500"
+    },
+    {
+      id: 6,
+      name: "Felting kit",
+      price: "₹799/kit",
+      image: "https://thegoodyarn.com.au/wp-content/uploads/2020/06/The-Good-Yarn-Ashford-Needle-Felting-Kit-NFK.jpg"
     }
   ]
 
